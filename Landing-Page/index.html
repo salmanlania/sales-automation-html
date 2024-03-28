@@ -1,0 +1,113 @@
+<!doctype html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+    </script>
+</head>
+
+<body style="background-color: #DBDBDB;">
+    <div>
+        <section id="home" class="header bg-cover bg-center bg-no-repeat h-screen"
+            style="background-image: url('./assests/landingPageBg.png');">
+            <nav class="bg-white shadow-lg">
+                <div class="max-w-7xl mx-auto px-4">
+                    <div class="flex justify-between items-center py-4">
+                        <!-- Logo -->
+                        <div class="flex-shrink-0">
+                            <a href="#">
+                                <img src="./assests/navbar-logo.png" alt="Your Logo" class="h-10">
+                            </a>
+                        </div>
+                        <!-- Navigation Links -->
+                        <div class="hidden md:flex space-x-4 gap-8">
+                            <div class="md:flex space-x-4 gap-6">
+                                <a href="#" class="text-gray-600 hover:text-gray-800">Home</a>
+                                <a href="#" class="text-gray-600 hover:text-gray-800">Platforms</a>
+                                <a href="#" class="text-gray-600 hover:text-gray-800">Pricing</a>
+                                <a href="#" class="text-gray-600 hover:text-gray-800">Contact</a>
+                            </div>
+                            <div class="flex items-center space-x-4">
+                                <a href="#" class="text-gray-600 hover:text-gray-800">
+                                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <path
+                                            d="M11 19C15.4183 19 19 15.4183 19 11C19 6.58172 15.4183 3 11 3C6.58172 3 3 6.58172 3 11C3 15.4183 6.58172 19 11 19Z"
+                                            stroke="black" stroke-linecap="round" stroke-linejoin="round" />
+                                        <path d="M21.0004 20.9999L16.6504 16.6499" stroke="black" stroke-linecap="round"
+                                            stroke-linejoin="round" />
+                                    </svg>
+                                </a>
+                                <a href="#" class="text-gray-600 hover:text-gray-800">
+                                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <path
+                                            d="M20 21V19C20 17.9391 19.5786 16.9217 18.8284 16.1716C18.0783 15.4214 17.0609 15 16 15H8C6.93913 15 5.92172 15.4214 5.17157 16.1716C4.42143 16.9217 4 17.9391 4 19V21"
+                                            stroke="black" stroke-linecap="round" stroke-linejoin="round" />
+                                        <path
+                                            d="M12 11C14.2091 11 16 9.20914 16 7C16 4.79086 14.2091 3 12 3C9.79086 3 8 4.79086 8 7C8 9.20914 9.79086 11 12 11Z"
+                                            stroke="black" stroke-linecap="round" stroke-linejoin="round" />
+                                    </svg>
+                                </a>
+                            </div>
+                        </div>
+                        <!-- Search Icon and User Icon -->
+                        <!-- Mobile Menu Button -->
+                        <div class="md:hidden flex items-center">
+                            <button class="mobile-menu-button">
+                                <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                        d="M4 6h16M4 12h16m-7 6h7"></path>
+                                </svg>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                <!-- Mobile Menu -->
+                <div class="hidden md:hidden mobile-menu">
+                    <a href="#" class="block py-2 px-4 text-sm text-gray-700 hover:bg-gray-200">Home</a>
+                    <a href="#" class="block py-2 px-4 text-sm text-gray-700 hover:bg-gray-200">Platforms</a>
+                    <a href="#" class="block py-2 px-4 text-sm text-gray-700 hover:bg-gray-200">Pricing</a>
+                    <a href="#" class="block py-2 px-4 text-sm text-gray-700 hover:bg-gray-200">Contact</a>
+                </div>
+            </nav>
+            <header class="mt-10 ml-10 md:mt-20 md:ml-20">
+                <div class="max-w-screen-md ">
+                    <div class="flex flex-col justify-center gap-8">
+                        <h2 class="text-black text-4xl md:text-5xl font-bold leading-none">Quisque vel <br>
+                            viverra</h2>
+                        <p class="text-black md:text-lg font-normal leading-7 text-center" style="max-width: 34rem;">Orci varius natoque
+                            penatibus et magnis dis parturient montes, nascetur ridiculus mus. Aliquam convallis sed
+                            velit ut scelerisque. Curabitur quam.</p>
+                        <button class="flex items-center justify-center gap-2">
+                            <span class="font-normal text-base md:text-lg leading-7">Get Started</span>
+                            <svg class="w-8 h-8 md:w-10 md:h-10 fill-current text-white" viewBox="0 0 47 47"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <circle cx="23.5" cy="23.5" r="23.5" fill="#252525" />
+                                <path
+                                    d="M33.931 24.2071C34.3215 23.8166 34.3215 23.1834 33.931 22.7929L27.567 16.4289C27.1765 16.0384 26.5433 16.0384 26.1528 16.4289C25.7623 16.8195 25.7623 17.4526 26.1528 17.8431L31.8097 23.5L26.1528 29.1569C25.7623 29.5474 25.7623 30.1805 26.1528 30.5711C26.5433 30.9616 27.1765 30.9616 27.567 30.5711L33.931 24.2071ZM14.5859 24.5H33.2239V22.5H14.5859V24.5Z"
+                                    fill="#DBDBDB" />
+                            </svg>
+                        </button>
+                    </div>
+                </div>
+            </header>
+        </section>
+        <!-- Navbar End -->
+    </div>
+    </div>
+
+    <script>
+        const mobileMenuButton = document.querySelector('.mobile-menu-button');
+        const mobileMenu = document.querySelector('.mobile-menu');
+
+        mobileMenuButton.addEventListener('click', () => {
+            mobileMenu.classList.toggle('hidden');
+        });
+    </script>
+</body>
+
+</html>
